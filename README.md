@@ -120,5 +120,14 @@ If you have any queries or suggestions, feel free to contact:
 📧 **[surya.devgenius@gmail.com](mailto:surya.devgenius@gmail.com)**
 
 ---
+## 👨‍💻 Team Members
+
+This project was collaboratively developed by:
+
+- **Surya K**
+- **Gokul M**
+- **Sabarivasan P T**
+- **Vishnu M**
+
 
 Thank you for exploring this project! 🚀
