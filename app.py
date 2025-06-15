@@ -61,7 +61,9 @@ def predict():
     
     except Exception as e:
         return render_template('result.html', prediction=f"Error: {str(e)}")
+import os
 
 if __name__ == '__main__':
     os.makedirs('models', exist_ok=True)
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 5000))  # Required for Render
+    app.run(host='0.0.0.0', port=port, debug=True)
